@@ -1,0 +1,16 @@
+body{
+    text-align: center;
+}
+table{
+    width: 60%;
+    margin: auto;
+    font-size: 1.5em;
+    border:2px solid blue;
+}
+td{
+    /* border-bottom: 1px solid green  ; */
+    border-top: 1px dotted blue;
+}
+th{
+    border:3px solid green;
+}
