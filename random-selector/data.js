@@ -1,1 +1,1 @@
-let meal=["Mcdonal's.png","MOS.png","pizza.png"];
+let meal=["lumy_suck.heic","didi_suck.heic","happy_suck.heic"];
