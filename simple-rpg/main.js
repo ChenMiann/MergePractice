@@ -82,16 +82,16 @@ $(document).keydown(function(event){
 
     switch(mapArray[targetBlock]){
         case undefined:
-            $("#talkBox").text("邊界");
+            $("#talkBox").text("此路不通");
             break;
         case 1:
-            $("#talkBox").text("有山");
+            $("#talkBox").text("其實是筍子啦");
             break;
         case 2:
-            $("#talkBox").text("抵達終點");
+            $("#talkBox").text("恭喜過關！");
             break;
         case 3:
-            $("#talkBox").text("哈瞜");
+            $("#talkBox").text("你已經屎ㄌ");
             break;
     }
 });

@@ -16,7 +16,7 @@ function setTable(){
     
     $("#courseTable").empty();
     $("#courseTable").append(
-        "<tr><th>場次</th><th>時間</th><th>主題</th></tr>"
+        "<tr><th>Week</th><th>Date</th><th>Meat</th></tr>"
     );
     
     let topicCount = topicsArray.length;
@@ -25,8 +25,11 @@ function setTable(){
         let thisDate = new Date(startDate.getTime()+7*i*oneDayMS)
         let trSpecial = "<tr>";
 
-        if(topicsArray[i]=="不上課"){
-            trSpecial = "<tr style='background-color:lightyellow'>";
+        if(topicsArray[i]=="Canned food"){
+            trSpecial = "<tr style='background-color:rgb(255,231,186)'>";
+        }
+       else if(topicsArray[i]=="Wagyu!!"){
+            trSpecial = "<tr style='background-color:rgb(255,114,86)'>";
         }
 
         $("#courseTable").append(

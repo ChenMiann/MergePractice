@@ -1,10 +1,11 @@
 let topicsArray=[
-    "課程介紹",
-    "隨機性",
-    "不上課",
-    "日期上課",
-    "不上課",
-    "條件判斷"
+    "Beef",
+    "Pork",
+    "Canned food",
+    "Chicken",
+    "Canned food",
+    "Fish",
+    "Wagyu!!"
 ]
 
 let startDate = new Date();
